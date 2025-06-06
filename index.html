@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichiban Rent - Japanese Car Rentals</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' fill='%231a1a1a'/%3E%3Ctext x='16' y='20' font-family='Arial' font-size='14' fill='white' text-anchor='middle'%3EIC%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%231a1a1a'/%3E%3Ctext x='20' y='25' font-family='Arial' font-size='16' fill='white' text-anchor='middle'%3EIC%3C/text%3E%3C/svg%3E" alt="Logo" class="logo-img">
+                <span>Ichiban Rent</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fas fa-compass"></i> Explore</li>
+                    <li><i class="fas fa-heart"></i> Saved</li>
+                    <li><i class="fas fa-car"></i> Rent</li>
+                    <li><i class="fas fa-file-contract"></i> Terms & Conditions</li>
+                    <li><i class="fas fa-user"></i> Profile</li>
+                    <li><i class="fas fa-history"></i> Purchase History</li>
+                    <li><i class="fas fa-cog"></i> Settings</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <div class="header-content">
+                    <h1>Japan Cars</h1>
+                    <p>Experience the Heart of Japan in Every Drive.</p>
+                </div>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search Car ....">
+                    <button class="filter-btn"><i class="fas fa-sliders-h"></i></button>
+                </div>
+                <div class="user-actions">
+                    <button class="icon-btn"><i class="fas fa-envelope"></i></button>
+                    <button class="icon-btn"><i class="fas fa-bell"></i></button>
+                    <button class="profile-btn">
+                        <img src="data:image/svg+xml,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' fill='%231a1a1a'/%3E%3Ctext x='16' y='20' font-family='Arial' font-size='14' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E" alt="Profile">
+                    </button>
+                </div>
+            </header>
+
+            <!-- Featured Car -->
+            <section class="featured-car">
+                <div class="car-details">
+                    <h2>Toyota Sprinter Trueno AE86</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(2000+ Reviews)</span>
+                    </div>
+                    <p class="description">
+                        Powered by the legendary 1.6-liter 4A-GE DOHC engine, this 
+                        lightweight machine delivers sharp throttle response and 
+                        high-revving excitement.
+                    </p>
+                    <div class="price">Rp. 8.120.000</div>
+                    <div class="actions">
+                        <div class="color-select">
+                            <span>Color</span>
+                            <div class="color-options">
+                                <button class="color-btn white active"></button>
+                                <button class="color-btn black"></button>
+                            </div>
+                        </div>
+                        <div class="duration">
+                            <button class="minus">-</button>
+                            <span>1 Day</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <div class="rent-actions">
+                        <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                        <button class="rent-btn">Rent now</button>
+                    </div>
+                </div>
+                <div class="car-image">
+                    <img src="data:image/svg+xml,%3Csvg width='400' height='250' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='400' height='250' fill='%231a1a1a'/%3E%3Ctext x='200' y='125' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3EToyota AE86%3C/text%3E%3C/svg%3E" alt="Toyota AE86">
+                </div>
+            </section>
+
+            <!-- Car List -->
+            <section class="car-list">
+                <div class="car-card">
+                    <img src="data:image/svg+xml,%3Csvg width='300' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='300' height='200' fill='%231a1a1a'/%3E%3Ctext x='150' y='100' font-family='Arial' font-size='20' fill='white' text-anchor='middle'%3EMazda RX-7%3C/text%3E%3C/svg%3E" alt="Mazda RX-7">
+                    <h3>Mazda RX-7 Type R (FD3S)</h3>
+                    <div class="price">Rp 5.027.000</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.7</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <!-- Add more car cards here -->
+            </section>
+
+            <!-- Top Rent Section -->
+            <section class="top-rent">
+                <div class="section-header">
+                    <h2>Top Rent</h2>
+                    <a href="#" class="view-all">View all <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="top-rent-list">
+                    <!-- Top rent items will be added here via JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
